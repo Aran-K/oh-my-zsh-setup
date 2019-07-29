@@ -1,6 +1,6 @@
 #Override defaults in .zshrc
 ZSH_THEME="agnoster"
-plugins=(git colored-man-pages)
+plugins=(git colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
 
 export EDITOR='vim'
 
