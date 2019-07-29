@@ -1,7 +1,13 @@
-#Alias config set up
-alias aliasconfig='vim $ZSH_CUSTOM/general_aliases.zsh'
+#Override defaults in .zshrc
+ZSH_THEME="agnoster"
+plugins=(git colored-man-pages)
 
 export EDITOR='vim'
 
-# Add spash on startup
+
+#aliases
+alias aliasconfig='vim $ZSH_CUSTOM/general_aliases.zsh'
+
+
+#other custom stuff 
 screenfetch
