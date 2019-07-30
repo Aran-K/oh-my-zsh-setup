@@ -1,5 +1,5 @@
 CUSTOM_MSG="#This line was inserted to load the list of custom plugins as spacified in 'load_custom_plugins'"
-CUSTOM_PLUGIN_LIST="git colored-man-pages zsh-autosuggestions fast-syntax-highlighting"
+CUSTOM_PLUGIN_LIST="git colored-man-pages zsh-autosuggestions zsh-syntax-highlighting"
 
 
 

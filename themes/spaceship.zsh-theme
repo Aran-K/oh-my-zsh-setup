@@ -1,0 +1,1 @@
+/home/aran/github/oh-my-zsh-setup/themes/spaceship-prompt/spaceship.zsh-theme
