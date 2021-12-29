@@ -6,3 +6,10 @@ To load custom plugins run `load_custom_plugins.sh` and restart your terminal
 At least install these dependencies (Ubuntu):
 `apt install fonts-powerline`
 `apt install screenfetch` 
+
+
+## Getting started MacOS
+- Follow https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c to install brew, zsh and oh-my-zsh
+- brew install screenfetch
+(may need to patch the file, see https://github.com/KittyKatt/screenFetch/issues/692)
+- brew install spaceship

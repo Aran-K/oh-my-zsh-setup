@@ -5,10 +5,10 @@ CUSTOM_PLUGIN_LIST="git colored-man-pages zsh-autosuggestions zsh-syntax-highlig
 
 if grep -q "$CUSTOM_MSG" ~/.zshrc; then
     echo "Updating .zshrc"
-    sed -i "s/^plugins=.*/plugins=($CUSTOM_PLUGIN_LIST)/" ~/.zshrc
+    sed -i'.original' "s/^plugins=.*/plugins=($CUSTOM_PLUGIN_LIST)/" ~/.zshrc
 else
     echo "No config found. Adding new config to .zshrc"  
-    sed -i "s/^plugins=.*/$CUSTOM_MSG\nplugins=($CUSTOM_PLUGIN_LIST)/" ~/.zshrc
+    sed -i'.original' "s/^plugins=.*/$CUSTOM_MSG\nplugins=($CUSTOM_PLUGIN_LIST)/" ~/.zshrc
 fi
 
-
+rm ~/.zshrc.original
