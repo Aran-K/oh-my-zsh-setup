@@ -13,3 +13,7 @@ At least install these dependencies (Ubuntu):
 - brew install screenfetch
 (may need to patch the file, see https://github.com/KittyKatt/screenFetch/issues/692)
 - brew install spaceship
+
+You may need to reclone the theme
+ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+
